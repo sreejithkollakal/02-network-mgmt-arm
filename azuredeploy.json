@@ -46,7 +46,7 @@
     },
     "location": {
       "type": "string",
-      "defaultValue": "[resourceGroup().location]",
+      "defaultValue": "southindia",
       "metadata": {
         "description": "Location for all resources."
       }
