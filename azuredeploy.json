@@ -99,7 +99,8 @@
           "location": "[parameters('location')]",
           "name": "[parameters('subnet3Name')]",
           "dependsOn": [
-            "[parameters('vnetName')]"
+            "[parameters('vnetName')]",
+            "[parameters('subnet1Name')]"
           ],
           "properties": {
             "addressPrefix": "[parameters('subnet3Prefix')]"
@@ -112,7 +113,8 @@
           "name": "[parameters('subnet2Name')]",
           "dependsOn": [
             "[parameters('vnetName')]",
-            "[parameters('subnet1Name')]"
+            "[parameters('subnet1Name')]",
+            "[parameters('subnet3Name')]"
           ],
           "properties": {
             "addressPrefix": "[parameters('subnet2Prefix')]"
