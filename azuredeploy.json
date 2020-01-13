@@ -46,7 +46,7 @@
     },
     "subnet3Prefix": {
       "type": "string",
-      "defaultValue": "10.0.0.94/26",
+      "defaultValue": "10.0.0.96/26",
       "metadata": {
         "description": "Subnet 3 Prefix"
       }
