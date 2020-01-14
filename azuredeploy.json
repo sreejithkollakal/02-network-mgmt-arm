@@ -53,7 +53,7 @@
     },
     "subnet3Name": {
       "type": "string",
-      "defaultValue": "Subnet3-vn02",
+      "defaultValue": "Subnet3-vn02-mod",
       "metadata": {
         "description": "Subnet 3 Name"
       }
